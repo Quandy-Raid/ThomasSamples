@@ -1,0 +1,45 @@
+//built-in methods are pieces of functionality within the javascript language. 
+//The alert method creates a pop-up box on the page.
+
+//var name1 = "Jimmy"
+
+//alert("Welcome to my site!");
+//alert(name1+"! You are our millionth visitor!")
+
+
+//prompt takes a result and assigns it to a variable to be used later
+
+//var firstName = prompt("What is your first name?");
+//console.log("Hello "+firstName);
+//alert("Welcome "+firstName+'!')
+//firstName
+
+
+//Console.log will just write something to the console. When in Visual Studio Code, console.log will actually print to the console
+//console.log("Tom")
+
+
+//document.write writes directly to the webpage
+//document.write("It's almost lunch");
+//document.write("<h1 style='color:green;'>"+"It's almost lunch, "+name1+'!')
+
+
+var name='Bob';
+var age=36;
+var speak='WOOF!';
+//var text="Fred said, \""+name+"\'s real age is "+age+" and his dog said '"+speak+"'";
+
+//console.log(text);
+
+
+
+
+
+//template literals allow you to literally build your string using ${var} to represent variables.
+
+var text=`Fred said, "${name}'s real age is ${age} and his dog said'${speak}'`
+
+
+console.log(text)
+
+

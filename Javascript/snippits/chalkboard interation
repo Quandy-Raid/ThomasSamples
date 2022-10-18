@@ -1,0 +1,49 @@
+//Question 1
+//for (var i=0; i<10; i++) {
+//    console.log(i)
+//}
+
+
+
+
+
+
+//Question 2
+//for (i=3; i<=13; i++) {
+//    console.log(i)
+//}
+
+
+
+
+
+
+//Question 3
+//var v=22
+
+//for (i=3; i<v; i++) {
+//    if (i%2==0) {        //NEED "=="!!!!!!!!!!!!!!!!!!!!!!!
+//        console.log(i)}
+//}
+
+
+
+
+
+
+
+//Question 4
+//var v=47
+
+//for (i=17; i<v; i++) {
+//     if (i%2==1) {
+//         console.log(i)}
+//}
+
+
+
+
+
+
+
+//Question 5

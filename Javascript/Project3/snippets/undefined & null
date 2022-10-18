@@ -1,0 +1,12 @@
+//You can declare a variable but not initialize it, it will just be undefined. Like creating a container but not filling it.
+
+
+var weight;
+weight
+
+var height;
+height
+
+
+
+//NULL means nothing, not even zero, because zero means something in programming

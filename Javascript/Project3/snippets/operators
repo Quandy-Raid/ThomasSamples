@@ -1,0 +1,16 @@
+//== equal to
+//=== equal value and equal type
+//!= not equal to
+//!== not equal value and not equal type
+
+//x=='5' is true
+//x==='5' is false
+//x !=8 is true
+//x !==8 is true
+//x !=='5' is true
+//x !==5 is false
+
+
+var x=5
+//x>8
+//x<8

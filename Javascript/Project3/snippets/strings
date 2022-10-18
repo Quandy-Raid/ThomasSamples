@@ -1,0 +1,32 @@
+//for adding text, just add a double quote
+//"just some string practice"
+//"gotta get in that 'practice'"
+//"here's a different way"
+//'What about now?'
+//"It's getting tricky"
+//'you have to be clever to make "quotes" work'
+
+
+//To escape characters (i.e. make it easier to use quotes and apostrophes), use the '\' key, it goes before the first quote and also BEFORE the last quote mark as below
+//"This is the best way to make a \"quote\""
+//'It\'s the easiest method'
+
+
+//Concatenate is where you add strings together:
+//'How\'s it' + " going, guys?"
+//"barbara " + 'streisand'
+//"OH"+' '+"YEAH" 
+
+//potential problems
+//22 + "22"
+//22 * "22"
+//"she is "+"158"/2
+//"she is "+158/2
+//"she is "+"158"-2
+//"she is "+"158"+2
+//"she is "+"158"+"2"
+//"she is "+"158"-"2"
+//"she is "+"158"*2
+//"she is "+"158"*"2"
+//"she is "+("158"-"2")
+"she is "+("158"-2)

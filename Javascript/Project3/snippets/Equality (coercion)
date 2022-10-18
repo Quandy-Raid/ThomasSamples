@@ -1,0 +1,14 @@
+//coercion allows us to compare values and not worry about types.
+//1=='1' is true
+//1=='1a' is false
+
+//Javascript coerces false to 0 and true as 1
+//so 1==true is true
+//0==true is false
+//0==false is true
+
+
+//strict equality (with "===") 
+//so 1==='1' is false because the number on right is a string
+//also, console.log(1==='1') is false
+//and, console.log(0==='0') is false

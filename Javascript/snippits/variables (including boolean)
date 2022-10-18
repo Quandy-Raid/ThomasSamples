@@ -1,0 +1,38 @@
+//try to make the variables descriptive/indicative of what they govern. Can't use keywords as variables, like true, false, all keywords are listed below:
+
+//abstract	arguments	await*	boolean break	byte	case	catch char	class*	const	continue debugger	default	delete	do double	else	enum*	eval
+//export*	extends*	false	final finally	float	for	function goto	if	implements	import* in	instanceof	int	interface let*	long	native	new
+//null	package	private	protected public	return	short	static super*	switch	synchronized	this try	typeof	var	void volatile	while	with	yield
+
+//conventions:
+//PascalCase=TheFirstLetterOfEveryWordIsCap
+//camelCase=justTheFirstWordIsLowerCaseEverythingElseIsUpperCase
+//snake_case=so_you_can_write_it_out
+//kebab-case=so-you-can-skewer-instead-of-snek
+
+
+
+//command "var" is how you add variables
+var name1 = "Tom";
+var name2 = "Gary";
+//name1
+//name2
+
+
+var color = "white";
+var age = 34;
+var drinkingAge = true; //Boolean data type - storing false, or storing true
+//drinkingAge
+
+var data = name1+" is "+age+" and drives a "+color+" car."
+//data
+
+var welcomemessage = "Welcome back "+name2
+//welcomemessage
+
+var is_smart=false
+
+//"is "+name2+" smart? "+is_smart
+
+var name2="Timmy"
+name2+" what are you doing?!?!"+ 

@@ -1,0 +1,27 @@
+//function stuff() {
+//    return "What?";
+//    var question = "Why?";
+//    return question;
+//}
+//document.write(stuff())
+
+
+//function emotion(feelings) {
+//        return feelings;
+//}
+//var currentFeeling = emotion("really love");
+
+
+//function theNumber (number) {
+//    return number;
+//}
+//var times = theNumber(3);
+
+
+//var age = 21;
+//
+//if (age <= 20) {
+//    document.write("No I am not ");
+//} else {
+//    document.write("Yes I am ");
+//}

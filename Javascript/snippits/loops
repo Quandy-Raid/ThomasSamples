@@ -1,0 +1,37 @@
+//While Loops
+//set up as - while(condition) {
+//    CODEBLOCK
+//}
+
+//var i = 1;
+//while(i<15) {
+//    console.log(i);
+//    i++;
+//}
+//This will print out 0 to 15 on the console
+
+
+
+//For loop 
+//set up as - for(variable initialization; condition; incrementation) [
+    //COBEBLOCK
+//]
+
+//for(var i = 0; i<10; i++) {
+//    console.log(i);
+//} 
+//This will print 0 to 9 in the console
+
+
+
+//Do While Loops - the code block will run at least once even if condition is false
+//set up as  - do { 
+    //CODEBLOCK
+//} while (condition);
+
+//var i = 0
+//do {
+//    i++;
+//    console.log("The number is " + i);
+//}
+//    while (i<10);

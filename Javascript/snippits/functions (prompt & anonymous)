@@ -1,0 +1,224 @@
+//Functions are a 2 step process, first you declare it, then you invoke or call it
+
+//function nameOfFunction() {
+    //CodeBlock
+//}
+
+//nameOfFunction(); <-- how to invoke/call/run function
+
+
+
+
+//function greetings() {
+//    console.log("Hey guys, how's it going?");
+//    console.log("Where da party at?");
+//    console.log("Did anyone bring spinach dip?");
+//    document.write("Hey guys, how's it going?");
+//    document.write("Where da party at?");
+//    document.write("Did anyone bring spinach dip?");
+//}
+
+//greetings();
+
+
+
+
+
+//function message() {
+//    document.write("I got your message. Tell me what to do. ");
+//    var message = "";
+//    var i=1;
+//    while (i<=10){
+//    message = "<p>I am number "+i+"!</p>";
+//    document.write(message);
+//    i++;
+//}
+//console.log("Do you like cheese?");
+//}
+//message();
+
+
+
+
+
+
+//Arguments - adding in the variable in the parenthesis.
+//function greetings(name) {
+//    console.log("Hey " + name + ", how's it goin\'?");
+//}
+
+//greetings("Jennifer"); //basically saying to run with var name as jennifer
+
+
+
+
+//function hello(){
+    //local scope, meaning the text in line 3 is inside the {} so line 12 execution comes back in error since it doesn't recognize blah
+//    var blah = "It's too early in the morning!";
+ //   console.log(blah);
+//}
+
+//global scope, outside of the {}, so everything fater recognizes it
+//var blah = "Please, give me coffee!"
+
+
+
+
+
+//hello();
+// gives error because it can't find blah due to scope
+
+//console.log(blah);
+
+//setInterval is a built in method, it runs it's function every x milliseconds (1000 = 1 sec)
+
+//function hello() {
+//    document.write("Will you be my friend? ")
+//    document.write("Please? I'll give you money! ")
+//}
+
+//setInterval(hello, 1000)
+
+
+
+
+
+
+//function theCat(name) {
+//    if (name === Garfield) {
+//        document.write("Jon, where is my lasagna?");
+//    }}else if (name === "Odie") {
+//        document.write("Bark!") ;
+//    } else {
+//        document.write("Garfield, look at what you've done!");
+//    }
+//}
+//theCat("Jon");
+//should spit out Garfield, look at what you've done!
+
+
+
+
+
+//function theNumbers(x, y, z) {
+//    if (x+y > 10 ) {
+//        document.write("Chicken Sausage & Bacon Biscuit")
+//   } else if (z-y < 10) {
+//        document.write("Double-Smoked Bacon, Cheddar & Egg Sandwich");
+//    } else {
+//        document.write("Bacon, Gouda & Egg Breakfast Sandwich");
+//    }
+//}
+//theNumbers(3, 6, 9);
+//should spit out Double-Smoked Bacon, Cheddar & Egg Sandwich
+
+
+
+
+
+
+
+//function stuff() {
+//    document.write("What?");
+//    console.log("What?");
+//}
+//document.write(stuff());
+//this function is undefined because console and write print info to a screen, but it does not fit the definition of "returning a value"
+
+
+//To properly return a value, use the "return" keyword
+//function stuff() {
+//    return "What?";
+//}
+//document.write(stuff());
+
+
+
+
+
+
+
+//function stuff() {
+//    return "What?";
+//    var question = "Why?";
+//    return question;
+//}
+//document.write(stuff())
+
+
+
+
+
+
+//function emotion(feelings) {
+//        return feelings;
+//}
+//var currentFeeling = emotion("really love")
+
+
+
+
+
+
+
+//Greeting for a website
+
+//function customer(name) {
+//        document.write("It's good to see you again, " + name + ". ");
+//}
+//customer("Angela");
+//customer("Chris");
+//customer("Esther");
+//This will spit out the message with each name
+
+
+
+
+
+//Multiple Parameters
+//function restaurants(place1, place2) {
+//        console.log("I love eating at " + place1 + " and " + place2);
+//}
+//restaraunts("Five-Guys", "Hardees");
+
+
+
+//function theMultiplier(number1, number2, number3) {
+//    document.write(number1*number2*number3);
+//}
+//theMultiplier(3, 2, 10);
+
+
+
+
+
+
+//Anonymous function 
+//basically, runs function randomly at runtime
+//setInterval(
+//    function(){
+//        document.write("Hello");
+//    }, 3000
+//);
+
+
+
+
+
+
+
+//Prompt method - SCREWED THIS ONE UP, NEED TO CORRECTLY LEARN IT
+//
+//    var FirstName = prompt("Hello, what is your first name?")
+//    var LastName = prompt("What is your last name?")
+//    return "Greetings, ${FirstName} ${LastName} ";
+//
+//
+//function FullName(){
+//document.write(FullName)
+//}
+
+
+
+
+
